@@ -33,7 +33,7 @@ const SendMessage = () => {
     }
 
     return (
-        <div className='bg-gray-300 fixed bottom-0 w-full py-6 shadow-lg text-black'>
+        <div className='bg-gray-950 fixed bottom-0 w-full py-6 shadow-lg text-black'>
             <form onSubmit={handleSendMessage} action="" className='containerWrap flex px-2'>
                 <input value={value} onChange={e =>setValue (e.target.value)} className='bg-gray-200 input w-full focus:outline-none rounded-r-none' type="text"/>
                 <button type='submit' className='w-auto bg-green-600 text-white  rounded-r-lg px-5 text-sm'>Send</button>

@@ -17,7 +17,7 @@ const Message = ({ message }) => {
                 <div className="chat-header">
                     {message.name}
                 </div>
-                <div className="chat-bubble">{message.text}</div>
+                <div className="chat-bubble text-white font-bold">{message.text}</div>
                 <div className="chat-footer opacity-50">Delivered</div>
             </div>
         </div>
