@@ -6,6 +6,7 @@ import Login from './pages/Login'
 import { PrivateRoute } from './routes/PrivateRoute'
 import { AuthProvider } from './context/AuthContext'
 
+
 function App() {
   return (
     <AuthProvider>

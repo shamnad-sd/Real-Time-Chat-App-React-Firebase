@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Message from './Message'
-import { collection, query, where, onSnapshot, orderBy, limit } from "firebase/firestore";
-import { db } from '../Firebase';
+import { collection, query, onSnapshot, orderBy, limit } from "firebase/firestore";
+import { db } from '../config/Firebase';
 
 const ChatBox = () => {
     const messegesEndRef = useRef();

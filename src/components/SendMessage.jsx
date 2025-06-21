@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { UserAuth } from '../context/AuthContext'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
-import { db } from '../Firebase';
+import { db } from '../config/Firebase';
 
 const SendMessage = () => {
 
